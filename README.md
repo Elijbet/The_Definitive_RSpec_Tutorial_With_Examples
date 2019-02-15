@@ -30,3 +30,7 @@ you can omit FactoryBot and use short variant create(:user).
 
 So the example code creates factory practice with creator which is created by another factory physician.
 
+### rspec tables are empty
+
+RAILS_ENV=test rake db:schema:load
+
